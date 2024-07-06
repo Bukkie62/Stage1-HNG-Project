@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'GT Walsheim', sans-serif;
+}
+
+@font-face {
+  font-family: 'GT Walsheim';
+  src: url('fonts/GTA/Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GT Walsheim';
+  src: url('fonts/GTA/Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GT Walsheim';
+  src: url('fonts/GTA/Thin.otf') format('opentype');
+  font-weight: thin;
+  font-style: normal;
+}
+
+
+.bg {
+  background-color: #1A1A1A;
+}
+@media (min-width: 1000px) {
+  .bg{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+  }
+  .head p{
+      font-size: 30px;
+  }
+  .head h1{
+      font-size: 65px;
+      font-weight: bold;
+      padding-top: 10px;
+      max-width: 70%;
+  }
+  .flex{
+      display: flex;
+  }
+  .contacts{
+      padding: 0px 90px;
+  }
+  .Goals h2, .links h2, .contact-text{
+      font-size: 35px;
+  }
+
+}
+.text-white {
+  color: #fff;
+}
+.my-nameeers{
+font-weight: bolder;
+}
+header p{
+  font-size: 25px;
+  color: #fff;
+  font-weight: 100;
+  padding-bottom: 20px;
+}
+header span{
+  text-decoration: underline;
+  color: #E62FC0;
+}
+header h1{
+  color: #fff;
+  font-size: 45px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.border{
+  border-radius: 35px;
+}
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 50px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 1000px) {
+  .head{
+      display: block;
+  }
+}
+@media (max-width: 1000px){
+  .box{
+      display: none;
+  } 
+}
+@media (min-width: 1300px) {
+  .Goals, .contacts, .links {
+      flex: 1;
+      min-width: 300px;
+  }
+
+}
+
+.btn{
+  padding: 15px 30px;
+  background-color: #E62FC0;
+  color: #fff;
+  margin: 15px 0px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+
+}
+.head header {
+  margin-bottom: 20px;
+}
+
+
+.flex{
+  justify-content: center;
+  margin: 0px 50px;
+  padding-bottom: 30px;
+}
+
+
+
+.Goals h2, .links h2, .co{
+  color: #fff;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+.Goals p{
+  color: #A3A3A3;
+  max-width: 70%;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 30px;
+}
+@media (max-width: 1000px) {
+  .Goals p{
+      max-width: 90%;
+  }
+
+}
+.links h2{
+  color: #fff;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+.linksa p{
+  color: #fff;
+  line-height: 25px;
+}
+a{
+  display: flex;
+  gap: 20px;
+  color: #fff;
+  line-height: 30px;
+
+}
+/* .contacts{
+  padding: 0px 90px;
+} */
+.contact-text{
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.contat p{
+  color: #A3A3A3;
+  font-size: 20px;
+  line-height: 35px;
+}
+/* Existing styles for large devices remain unchanged */
+
+@media (min-width: 1000px) {
+  .bg {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100vh;
+  }
+
+  .head p {
+      font-size: 30px;
+  }
+
+  .head h1 {
+      font-size: 65px;
+      font-weight: bold;
+      padding-top: 10px;
+      max-width: 70%;
+  }
+
+  .flex {
+      display: flex;
+  }
+
+  .contacts {
+      padding: 0px 90px;
+  }
+
+  .Goals h2, .links h2, .contact-text h2 {
+      font-size: 35px;
+  }
+  .links a{
+      font-size: 20px;
+  }
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 1000px) {
+  .Goals h2, .contacts h2, .links h2 {
+      font-size: 24px; /* Adjust font size for smaller screens */
+      margin-top: 20px; /* Add top margin */
+  }
+
+
+  .contact-text {
+      font-size: 24px; /* Adjust font size for smaller screens */
+      line-height: 1.6; /* Increase line height for better readability */
+      margin-top: 10px; /* Add top margin for separation */
+  }
+
+  .Goals, .contacts, .links {
+      margin-top: 30px; /* Add margin top to sections */
+  }
+}
