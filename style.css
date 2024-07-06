@@ -7,18 +7,6 @@
 
 @font-face {
   font-family: 'GT Walsheim';
-  src: url('fonts/GTA/Bold.otf') format('opentype');
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'GT Walsheim';
-  src: url('fonts/GTA/Medium.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'GT Walsheim';
   src: url('fonts/GTA/Thin.otf') format('opentype');
   font-weight: thin;
   font-style: normal;
